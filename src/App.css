@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Rubik+Lines&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    width:100vw;
+    height:100vh;
+    display: grid;
+    grid-template-rows: 2.5fr 2fr 4fr 2fr;
+}
+.logo{
+    font-family: "Rubik Lines", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    display: grid;
+    place-items: center;
+    background-color: #192a56;
+    color:#fff;
+    font-size: 56px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+    padding:24px;
+    background-color: #00a8ff;
+}
+
+.list{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding:24px;
+    place-items: center;
+    background-color: #dcdde1;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:24px;
+    background-color: #1dd1a1;
+}
+
+.inputs {
+    padding:10px 20px;
+    border-radius: 25px;
+    border:none;
+}
+button {
+    background-color: #192a56;
+    color:#fff
+}
