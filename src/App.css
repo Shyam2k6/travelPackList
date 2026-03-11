@@ -39,7 +39,7 @@ body{
 
 .list{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding:24px;
     place-items: center;
     background-color: #dcdde1;
@@ -60,4 +60,18 @@ body{
 button {
     background-color: #192a56;
     color:#fff
+}
+
+.item{
+    background-color: #00a8ff;
+    padding:6px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    border-radius: 25px;
+}
+.close{
+    font-size: 20px;
+    cursor: pointer;
 }

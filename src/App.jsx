@@ -62,9 +62,9 @@ function PackingList({items, handleClear, handleToggleItem}) {
 }
 
 function Item({item, handleClear, handleToggleItem}) {
-  return <div>
+  return <div className="item">
     <input type="checkbox" value={item.packed} onChange={()=> handleToggleItem(item.id)}/>
-    <span style={item.packed? {textDecoration:"line-through"}:{}}> {item.quantity} {item.description}</span> <span onClick={()=>handleClear(item.id)}>❌</span>
+    <span style={item.packed? {textDecoration:"line-through"}:{}}> {item.quantity} {item.description}</span> <span className='close' onClick={()=>handleClear(item.id)}>&#9746;</span>
   </div>
   
 }
