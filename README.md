@@ -1,16 +1,57 @@
-# React + Vite
+# Travel React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight React application built with Vite.
 
-Currently, two official plugins are available:
+## Application Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This screenshot shows the current travel app user interface:
 
-## React Compiler
+![Travel App Screenshot](public/image.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Overview
 
-## Expanding the ESLint configuration
+This project is a simple travel-themed React app created using Vite for fast development and production builds.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite 8
+- ESLint support
+- Static assets served from `public/`
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+- `public/` - static files served at root, including `image.png`
+- `src/` - React source files
+- `src/App.jsx` - main app component
+- `vite.config.js` - Vite configuration
+- `package.json` - project metadata and scripts
+
+## Notes
+
+- The `public` folder contents are served as static assets.
+- Files in `public` are accessible at the root URL in development and production.
